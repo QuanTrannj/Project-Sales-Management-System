@@ -4,7 +4,7 @@ package entity;
 import java.util.Date;
 
 
-public class Report {
+public class Report extends Customer{
     
     private String reportType;
     private Date reportDate;
@@ -29,6 +29,10 @@ public class Report {
 
     public void setReportDate(Date reportDate) {
         this.reportDate = reportDate;
+    }
+
+    public void dailySaleReport()
+    {
     }
     
             
