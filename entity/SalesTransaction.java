@@ -9,6 +9,7 @@ public class SalesTransaction {
      private String productId;
      private int quantity;
      private double totalAmount;
+     
     
      public SalesTransaction(String transactionId,String customerId,String productId,int quantity, double totalAmount){
       this.customerId = customerId;
@@ -59,6 +60,11 @@ public class SalesTransaction {
     public void setTotalAmount(double totalAmount) {
         this.totalAmount = totalAmount;
     }
+
+   public ArrayList<SalesTransaction> getTransaction()
+   {
+        return transaction;
+   }
     
      
 }

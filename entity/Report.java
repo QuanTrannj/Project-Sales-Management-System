@@ -3,16 +3,20 @@ package entity;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Report extends SalesTransaction{
+public class Report{
 
     private String reportType;
     private Date reportDate;
 
-    public Report(String reportType, Date reportDate, String transactionId, String customerId, String productId, int quantity, double totalAmount) {
+    public Report(String reportType, Date reportDate) {
         
-        super(transactionId, customerId, productId, quantity, totalAmount);
+        
         this.reportType = reportType;
         this.reportDate = reportDate;
+    }
+    public Report() {
+        
+        
     }
 
     public String getReportType() {

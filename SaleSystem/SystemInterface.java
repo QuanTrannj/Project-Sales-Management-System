@@ -2,6 +2,8 @@ package SaleSystem;
 
 import entity.Customerlist;
 import entity.Product;
+import entity.Report;
+
 import java.util.Scanner;
 public class SystemInterface {
 
@@ -102,6 +104,7 @@ case 3:
                             break;
                         case 4:
                             System.out.println("Reports");
+                           
                             break;
                         case 5:
                             System.out.println("Exit Program");
