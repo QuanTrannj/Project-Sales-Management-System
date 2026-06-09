@@ -135,7 +135,7 @@ public class Report {
                     + customerNames[i]
                     + " | "
                     + purchases[i]
-                    + " VND");
+                    + " VND.");
         }
     }
 }
