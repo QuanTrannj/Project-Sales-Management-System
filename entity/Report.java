@@ -170,6 +170,7 @@ public void highestPurchaseCustomer(ArrayList<SalesTransaction> transactions) {
                 + customerNames[i]
                 + " | "
                 + purchases[i] + "VND.");
+                System.out.println("HELLO ");
     }
 }
 }
